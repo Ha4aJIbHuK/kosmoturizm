@@ -1,0 +1,212 @@
+*{
+    outline: 1px 
+    solid orange;
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+
+    font-size: 14px ;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.container
+{
+    width: 1040px;
+        margin: 0 auto;
+    padding: 0;  
+}
+.site-header {
+    color: #FFFFFF;
+    background-color: #222222;  
+}
+.site-header .container
+{
+    min-height: 400px;
+        padding-top: 50px;
+    padding-bottom: 180px;
+    background-image: url("../img/moon-rocket.png");
+    background-repeat: no-repeat;
+    background-position: 520px 130px;
+}
+.main-nav
+{
+    display: flex;
+        margin-bottom: 95px;
+    margin-right:80px;
+}
+
+.site-menu
+{
+display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    list-style: none;
+}
+.site-menu a
+{
+display: block;
+    margin-right: 40px;
+}
+.contacts-menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 80px;
+    padding: 0;
+    list-style: none;
+}
+.contacts-menu li
+{
+    margin-left: 20px;
+}
+.logo 
+{
+    width: 60px;
+    height: 60px;
+        margin-right: 60px;
+}
+
+.about-us
+{
+    width: 300px;
+    padding-left: 120px;
+            
+}
+.about-us h1
+{
+    font-size: 45px;
+    line-height: 50px;
+        font-family: courier new;
+    color: white;   
+}
+
+.btn
+{
+    display:block;
+    width:195px;
+    padding:0 40px;
+    font-weight:bold;
+    font-size:14px;
+    line-height:50px;
+    color:#222222;
+    border:none;
+    border-radius:50px;
+    background-color:#FECA30;
+    background-image: url(../img/right-arrow-dark.png);
+    background-repeat: no-repeat;
+    background-position: 200px 17px;
+}
+.site-footer
+{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color:#FFFFFF;
+    background-color:#131313;
+}
+
+.left-column
+{
+    display: flex;
+    width: 180px;
+    margin-right: 100px;
+    
+}
+.right-column
+{
+    width: 720px;
+    padding-top: 35px;
+}
+.footer-menu
+{
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style: none;
+    
+}
+.footer menu li
+{
+    width:180px;
+    margin-right:60px;
+}
+.footer-columns-container
+{
+    display: flex;
+
+}
+.footer-submenu 
+{
+    display: block;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.footer-submenu li {
+    display: block;
+    width: 180px;
+    margin-right: 60px;
+}
+.footer-submenu-title {
+    display: block;
+    margin-bottom: 30px;
+}
+.logo-container {
+   display:flex;
+    align-items:center;
+    
+}   
+.site-main
+{
+    color:#FFFFFF;
+    background-color:#131313;
+}
+.site-carta
+{
+    display:flex;
+    width:1040px;
+    margin:0 auto;
+    margin-top:0;
+    padding:0;
+}
+.left-column-1
+{
+     margin-bottom:20px;
+    list-style-type: none;
+    margin-right:100px;
+  width: 500px;
+    
+}
+.right-column-1
+{
+     margin-bottom:20px;
+    list-style-type: none;
+    width: 520px;
+    
+}
+.recomend
+{
+    margin-top:0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+     line-height:30px;
+    font-family:courier new;
+    color:#FFCC00;
+    
+}
+.haha
+{
+     margin-bottom:20px;
+}
